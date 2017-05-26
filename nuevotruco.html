@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body background="http://i.imgur.com/9od0mSo.jpg">
+<head>
+    <meta charset="UTF-8">
+    <title>Trucos Chidos</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+  
+<!-- La parte de header -->
+  
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="http://i.imgur.com/s0BkmoM.png" width="120" height="30">
+                </a>
+            </div>
+        </div>
+      
+<!-- Donde se ponen los botones del inicio -->
+      
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="http://loquecaiga-carloscamposs96820632.codeanyapp.com/">Inicio</a></li>
+            <li role="presentation"><a href="http://loquecaiga-carloscamposs96820632.codeanyapp.com/login.html">Iniciar Sesión</a></li>
+          <li role="presentation"><a href="http://loquecaiga-carloscamposs96820632.codeanyapp.com/perfil.html">Perfil</a></li>
+          <li role="presentation"><a href="http://loquecaiga-carloscamposs96820632.codeanyapp.com/nuevotruco.html">Nuevo Truco</a></li>
+        </ul>
+    </nav>
+    
+
+<!-- Donde van los encabezados -->
+
+ <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-file">
+                            </span>Subir Nuevo Truco</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Titulo" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Contenido" rows="5" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="category">
+                                            Plataforma</label>
+                                        <select class="form-control" id="ej: PS4">
+                                            <option>PS4</option>
+                                            <option>XB1</option>
+                                            <option>PC</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="tags">
+                                            Notas Extra</label>
+                                        <input type="text" class="form-control" id="tags" placeholder="Extra" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="well well-sm">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">Perfil</span>
+                                            <input type="text" class="form-control" placeholder="Link al Perfil" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="well well-sm well-primary">
+                                        <form class="form form-inline " role="form">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" value="" placeholder="Usuario" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option>Spoilers</option>
+                                                <option>No Spoilers</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-success btn-sm">
+                                                <span class="glyphicon glyphicon-floppy-disk"></span>Guardar</button>
+                                            <button type="button" class="btn btn-default btn-sm">
+                                                <span class="glyphicon glyphicon-eye-open"></span>Preview</button>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th-list">
+                            </span>Opciones Avanzadas</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Fecha" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Tags" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Descripción" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="well well-sm well-primary">
+                                        <form class="form form-inline " role="form">
+                                        <div class="form-group">
+                                            <a href="http://www.jquery2dotnet.com" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-floppy-disk">
+                                            </span>Guardar</a>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <a href="http://loquecaiga-carloscamposs96820632.codeanyapp.com/perfil.html">
+   <input type="button" value="Subir Truco" />
+    </a>
+       
+      
+        
+  <footer>
+  <div class="row">
+            <div class="col-md-12">
+
+            </div>
+ </div>
+      
+      <footer>
+        <div class= "container-fluid">
+          <p class="der" >REDES </p>
+        </div>
+      </footer>
+
+
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
